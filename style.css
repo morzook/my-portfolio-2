@@ -75,12 +75,12 @@ body{
     font-family: 'Ubuntu', sans-serif;
     text-transform: capitalize;
     letter-spacing: 5px;
-    font-size: 3.3rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
 .h2-inner{
-    font-size: 2.4rem;
+    font-size: 3rem;
     letter-spacing: 6px;
 }
 
@@ -150,7 +150,7 @@ transition: width 2s;
 
 }
   .h2-inner{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
  }
 
  .hero-image-container{
@@ -181,12 +181,12 @@ width: 99%;
 }
 
 .heading-1{
-font-size: 2.8rem;
+font-size: 3rem;
 
 }
 
 .h2-inner{
-font-size: 2rem;
+font-size: 2.2rem;
 
 }
    
@@ -287,8 +287,6 @@ transition: width 2s;
         margin-left: 0;
         margin-top: -100px;
         align-items: flex-start;
-        /* margin-left: 15px; */
-
     }
 
     .intro-heading{
