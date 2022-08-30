@@ -490,27 +490,47 @@ transition: width 2s;
   
  /* SMALL SCREENS, LAPTOPS */
  @media only screen and (max-width: 1024px) {
+.projects{
+    height: 180vh;
+}
+
      .projects-content{
-         width: 95%;
+         width: 98%;
+         height: 95%;
      }
 
      .project-1, .project-2, .project-3{
-        height: 80%;
+        height: 30%;
         width: 90%;
     }
     .project-container{
         width: 100%;
         height: 90%;
     }
+
+    .project-a, .project-b{
+        width: 47%;
+        height: 95%;
+    }
+
+    .project-image-container{
+        width: 90%;
+        height: 95%;
     
+    }
     
 } 
 
  /* iPADS, TABLETS */
  @media only screen and (max-width: 768px) {
+
+    .projects{
+        height: 200vh;
+    }
+    
     .projects-content{
         width: 90%;
-        height: 90%;
+        height: 95%;
         margin: 0;
 
     }
@@ -518,12 +538,11 @@ transition: width 2s;
     .project-heading{
         width: 50%;
         height: 15%;
-        /* border: 1px solid blue; */
-        /* margin-bottom: 0; */
+        margin-bottom: -40px;
     }
 
     .project-1, .project-2, .project-3{
-        height: 70%;
+        height: 60%;
         width: 100%;
         flex-direction: column;
     }
@@ -540,7 +559,11 @@ transition: width 2s;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
 
+.project-a, .project-b{
+    width: 46%;
+    height: 90%;
 }
 
 .a-image, .b-image{
