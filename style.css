@@ -249,18 +249,20 @@ transition: width 2s;
 
 @media (min-width: 481px) and (max-width: 767px) {
     .hero{
-        height: 80vh;
+        height: 99vh;
     }
     
     .hero-content{
+        height: 99%;
         flex-direction: column-reverse;
         justify-content: space-around;
     }
     
     .social-icons-container{
         width: 60%;
-        height: 15%;
+        height: 12%;
         flex-direction: row;
+        margin-top: 0;
     }
     
     .social-icons{
@@ -271,7 +273,7 @@ transition: width 2s;
     .intro{
     margin-left: 0;
     width: 90%;
-    height: 70%;
+    height: 75%;
 }
 
 .heading-1{
@@ -287,6 +289,7 @@ transition: width 2s;
 .intro-text{
     width: 90%;
     line-height: 30px;
+    margin-top: 0;
 }
 
 .hero-image-container{
@@ -294,6 +297,7 @@ transition: width 2s;
   }
 
   .intro-cta{
+    margin-top: 5px;
     width: 40%;
     justify-content: center;
     font-size: 1.5rem;
@@ -595,7 +599,7 @@ button{
 
 @media (min-width: 481px) and (max-width: 767px) {
     .projects{
-        height: 300vh;
+        height: 350vh;
     }
 
     .projects-content{
@@ -667,10 +671,82 @@ button{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+    .projects{
+        height: 350vh;
+    }
+
+    .projects-content{
+        width: 99%;
+        justify-content: space-between;
+        }
+
+        .project-container{
+            height: 90%;
+            flex-direction: column;
+        }
+    
+        .project-1, .project-2, .project-3{
+            height: 32%;
+            width: 99%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+    .project-a, .project-b, .project-c{
+        width: 99%;
+        height: 45%;
+        flex-direction: row;
+    }
+
+    #project-b{
+        flex-direction: row-reverse;
+    }
+    
+    .project-text{
+        width: 90%;
+        height: 35%;
+    }
+    
+    .project-description{
+        width: 95%;
+        height: 60%;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    .project-image-container{
+        width: 90%;
+        height: 100%;
+    }
+    
+    #weather-app{
+        width: 85%;
+        height: 90%; 
+    }
+    
+    .a-image{
+        width: 99%;
+        height: 99%; 
+    }
+    
+    .more-project-btn-container{
+        margin-bottom: 20px;
+        width: 60%;
+        height: 3%;
+    }
+    
+    button{
+        width: 100%;
+        height: 80%;
+    }
   
 
   
 }
+  
+
+  
 
 
 
