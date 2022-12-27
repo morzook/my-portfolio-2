@@ -179,15 +179,14 @@ transition: width 2s;
     
     .intro-text{
         font-size: 20px;
-        line-height: 35px;
+        line-height: 32px;
     
     }
 
     .intro-cta{
-        border: 1px solid red;
         width: 40%;
         font-size: 20px;
-        margin-top: 0px;
+        margin-top: 5px;
         justify-content: center;
     }
 
@@ -222,6 +221,25 @@ transition: width 2s;
     .hero{
         height: 90vh;
     }
+
+    .intro{
+        height: 70%;
+    }
+
+    .heading-1{
+        font-size: 3rem;
+        letter-spacing: 4px;
+    }
+    
+    .h2-inner{
+        font-size: 2.6rem;
+    }
+    
+    .intro-text{
+        font-size: 20px;
+        line-height: 30px;
+    
+    }
 }
 
 /* 
@@ -236,21 +254,21 @@ transition: width 2s;
     
     .hero-content{
         flex-direction: column-reverse;
-    justify-content: space-around;
+        justify-content: space-around;
     }
     
-.social-icons-container{
-    width: 60%;
-    height: 15%;
-    flex-direction: row;
-}
-
-.social-icons{
-    width: 40px;
-    height: 40px;
-}
-
-.intro{
+    .social-icons-container{
+        width: 60%;
+        height: 15%;
+        flex-direction: row;
+    }
+    
+    .social-icons{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .intro{
     margin-left: 0;
     width: 90%;
     height: 70%;
@@ -259,6 +277,7 @@ transition: width 2s;
 .heading-1{
     font-size: 3.5rem;
     width: 100%;
+    margin-top: -5px;
 }
 
 .h2-inner{
