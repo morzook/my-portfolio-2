@@ -20,6 +20,7 @@ body{
 }
 
 .hero-content{
+    border: 1px solid red;
     color: white;
     width: 95%;
     height: 95%;
@@ -155,6 +156,8 @@ transition: width 2s;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .hero{
+    }
     .hero-content{
         width: 98%;
     }
@@ -384,6 +387,13 @@ transition: width 2s;
     width: 35px;
     height: 35px;
 }
+
+.intro-cta{
+    margin-top: 5px;
+    width: 55%;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
 
   
 
