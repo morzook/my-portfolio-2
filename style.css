@@ -20,7 +20,6 @@ body{
 }
 
 .hero-content{
-    border: 1px solid white;
     color: white;
     width: 95%;
     height: 95%;
@@ -280,7 +279,7 @@ transition: width 2s;
         width: 60%;
         height: 12%;
         flex-direction: row;
-        margin-top: 0;
+        margin-top: 10px;
     }
     
     .social-icons{
@@ -290,8 +289,8 @@ transition: width 2s;
     
     .intro{
     margin-left: 0;
-    width: 90%;
-    height: 70%;
+    width: 99%;
+    height: 65%;
 }
 
 .heading-1{
@@ -305,7 +304,7 @@ transition: width 2s;
 }
 
 .intro-text{
-    width: 90%;
+    width: 99%;
     line-height: 30px;
     margin-top: 0;
 }
@@ -315,7 +314,8 @@ transition: width 2s;
   }
 
   .intro-cta{
-    margin-top: 15px;
+    border: 1px solid red;
+    margin-top: 25px;
     height: 15%;
     width: 40%;
     justify-content: center;
