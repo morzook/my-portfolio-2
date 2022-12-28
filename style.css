@@ -20,7 +20,7 @@ body{
 }
 
 .hero-content{
-    border: 1px solid red;
+    border: 1px solid white;
     color: white;
     width: 95%;
     height: 95%;
@@ -155,8 +155,9 @@ transition: width 2s;
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .hero{
+        height: 80vh;
     }
     .hero-content{
         width: 98%;
@@ -206,12 +207,13 @@ transition: width 2s;
     
     .hero-image-container{
     height: 70%;
+    width: 40%;
     transition: width 2s;
     }
     
     .hero-image{
-        width: 80%;
-        height: 60%;
+        width: 90%;
+        height: 40%;
     
     }
 }
@@ -222,7 +224,7 @@ transition: width 2s;
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .hero{
-        height: 90vh;
+        height: 95vh;
     }
 
     .intro{
@@ -243,6 +245,19 @@ transition: width 2s;
         line-height: 30px;
     
     }
+
+    .hero-image-container{
+    height: 70%;
+    width: 40%;
+    transition: width 2s;
+    }
+
+    .intro-cta{
+        width: 40%;
+        font-size: 25px;
+        margin-top: 5px;
+        justify-content: center;
+    }
 }
 
 /* 
@@ -250,7 +265,7 @@ transition: width 2s;
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
     .hero{
         height: 99vh;
     }
@@ -276,7 +291,7 @@ transition: width 2s;
     .intro{
     margin-left: 0;
     width: 90%;
-    height: 75%;
+    height: 70%;
 }
 
 .heading-1{
@@ -300,7 +315,8 @@ transition: width 2s;
   }
 
   .intro-cta{
-    margin-top: 5px;
+    margin-top: 15px;
+    height: 15%;
     width: 40%;
     justify-content: center;
     font-size: 1.5rem;
@@ -314,6 +330,8 @@ transition: width 2s;
 
   
 }
+
+
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -538,9 +556,9 @@ button{
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .projects{
-        height: 250vh;
+        height: 220vh;
     }
 
     .projects-content{
@@ -548,35 +566,43 @@ button{
     justify-content: space-between;
     }
 
+    .project-container{
+    }
+
     .project-1, .project-2, .project-3{
-        height: 30%;
+        height: 33%;
         width: 99%;
     }
 
 .project-a, .project-b, .project-c{
     width: 49%;
     height: 90%;
+    flex-direction: column-reverse ;
+}
+
+#project-b{
+    flex-direction: column-reverse ;
 }
 
 .project-text{
-    width: 40%;
-    height: 60%;
+    width: 80%;
+    height: 30%;
 }
 
 .project-description{
     width: 95%;
     height: 60%;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .project-image-container{
-    width: 53%;
-    height: 99%;
+    width: 70%;
+    height: 70%;
 }
 
 #quiz-game, #weather-app{
     width: 90%;
-    height: 95%; 
+    height: 90%; 
 }
 
 .a-image{
@@ -584,10 +610,6 @@ button{
     height: 90%; 
 }
 
-.a-image:hover{
-    transition: cubic-bezier(.07, 1.41, .82, 1.41);
-    transform: scale(1.1);
-}
 
 .more-project-btn-container{
     margin-bottom: 30px;
@@ -603,16 +625,84 @@ button{
 }
 
 /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+     
+    .projects{
+        height: 250vh;
+    }
+
+    .projects-content{
+        
+    }
+    
+    .project-1, .project-2, .project-3{
+        height: 33%;
+        width: 99%;
+    }
+
+.project-a, .project-b, .project-c{
+    width: 49%;
+    height: 90%;
+}
+
+
+.project-text{
+    width: 45%;
+    height: 50%;
+}
+
+.project-description{
+    width: 95%;
+    height: 60%;
+    font-size: 20px;
+}
+
+.project-image-container{
+    width: 80%;
+    height: 95%;
+}
+
+#quiz-game, #weather-app{
+    width: 90%;
+    height: 95%; 
+}
+
+.a-image{
+    width: 90%;
+    height: 90%; 
+}
+
+
+.more-project-btn-container{
+    margin-bottom: 30px;
+    width: 30%;
+    height: 3%;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+}
+
+
+}
+
+
+/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
     .projects{
-        height: 350vh;
+        height: 400vh;
     }
 
     .projects-content{
+        height: 90%;
         width: 99%;
         justify-content: space-between;
 
@@ -624,7 +714,7 @@ button{
         }
     
     .project-a, .project-b, .project-c{
-        width: 50%;
+        width: 45%;
         height: 99%;
         flex-direction: column-reverse;
     }
@@ -636,6 +726,7 @@ button{
     .project-text{
         width: 90%;
         height: 35%;
+        margin-top: 5px;
     }
     
     .project-description{
@@ -651,12 +742,17 @@ button{
     }
     
     #weather-app{
-        width: 85%;
+        width: 70%;
+        height: 95%; 
+    }
+
+    #quiz-game{
+        width: 65%;
         height: 90%; 
     }
     
     .a-image{
-        width: 85%;
+        width: 80%;
         height: 95%; 
     }
     
@@ -683,7 +779,7 @@ button{
 @media (min-width: 320px) and (max-width: 480px) {
 
     .projects{
-        height: 350vh;
+        height: 380vh;
     }
 
     .projects-content{
