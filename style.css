@@ -266,7 +266,7 @@ transition: width 2s;
 
 @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
     .hero{
-        height: 99vh;
+        height: 150vh;
     }
     
     .hero-content{
@@ -314,7 +314,6 @@ transition: width 2s;
   }
 
   .intro-cta{
-    border: 1px solid red;
     margin-top: 25px;
     height: 15%;
     width: 40%;
