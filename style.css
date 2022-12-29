@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    background-color: #005FFF;
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
      overflow-x: hidden; 
@@ -11,8 +12,8 @@ body{
 /* HERO SECTION STARTS */
 .hero{
     height: 100vh;
-    background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,26,71,1) 77%);
+    /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,26,71,1) 77%); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -139,14 +140,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 80%;
+height: 99%;
 width: 35%;
 transition: width 2s;
 }
 
 .hero-image{
-    width: 70%;
-    height: 50%;
+    width: 95%;
+    height: 70%;
 }
 
 /* 
@@ -205,13 +206,13 @@ transition: width 2s;
     }
     
     .hero-image-container{
-    height: 70%;
+    height: 90%;
     width: 40%;
     transition: width 2s;
     }
     
     .hero-image{
-        width: 90%;
+        width: 95%;
         height: 40%;
     
     }
@@ -246,14 +247,18 @@ transition: width 2s;
     }
 
     .hero-image-container{
-    height: 70%;
+    height: 90%;
     width: 40%;
     transition: width 2s;
     }
 
+    .hero-image{
+        height: 75%;
+    }
+
     .intro-cta{
         width: 40%;
-        font-size: 25px;
+        font-size: 22px;
         margin-top: 5px;
         justify-content: center;
     }
@@ -422,7 +427,6 @@ transition: width 2s;
 
 .projects{
     color: white;
-    background-color: #005FFF;
     height: 300vh;
     width: 100%;
     display: flex;
