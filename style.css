@@ -157,10 +157,11 @@ transition: width 2s;
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .hero{
-        height: 80vh;
+        height: 70vh;
     }
     .hero-content{
         width: 98%;
+
     }
 
     .social-icons{
@@ -169,16 +170,18 @@ transition: width 2s;
     }
     
     .intro{
-        height: 60%;
+        border: 2px solid red;
+        height: 75%;
+        width: 50%;
     }
     
     .heading-1{
         font-size: 3rem;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
     }
     
     .h2-inner{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     
     .intro-text{
@@ -212,8 +215,8 @@ transition: width 2s;
     }
     
     .hero-image{
-        width: 95%;
-        height: 40%;
+        width: 99%;
+        height: 50%;
     
     }
 }
@@ -225,7 +228,7 @@ transition: width 2s;
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .hero{
         height: 95vh;
-    }
+            }
 
     .intro{
         height: 70%;
@@ -253,7 +256,7 @@ transition: width 2s;
     }
 
     .hero-image{
-        height: 75%;
+        height: 65%;
     }
 
     .intro-cta{
