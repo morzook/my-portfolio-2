@@ -443,7 +443,6 @@ transition: width 2s;
 }
 
 .tech-details{
-    border: 1px solid white;
     height: 60%;
     width: 45%;
      display: flex;
@@ -1037,6 +1036,7 @@ button{
     }
 
     .projects-content{
+        width: 99%;
         
     }
     
@@ -1044,8 +1044,8 @@ button{
         height: 33%;
         width: 99%;
     }
-
-.project-a, .project-b, .project-c{
+    
+    .project-a, .project-b, .project-c{
     width: 49%;
     height: 90%;
 }
@@ -1053,7 +1053,7 @@ button{
 
 .project-text{
     width: 48%;
-    height: 85%;
+    height: 60%;
 }
 
 .text-title{
@@ -1079,7 +1079,7 @@ button{
 
 .project-image-container{
     width: 60%;
-    height: 95%;
+    height: 80%;
 }
 
 #quiz-game, #weather-app{
@@ -1131,7 +1131,6 @@ button{
         }
     
     .project-a, .project-b, .project-c{
-        border: 1px solid red;
         width: 45%;
         height: 99%;
         flex-direction: column-reverse;
