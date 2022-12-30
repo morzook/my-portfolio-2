@@ -432,6 +432,7 @@ transition: width 2s;
 .tech{
     height: 90vh;
     background-color: #e1e6f2;
+    width: 100%;
 }
 
 .tech-content{
@@ -446,8 +447,52 @@ transition: width 2s;
     height: 60%;
     width: 45%;
      display: flex;
+     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.details-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+}
+
+.current-learn{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learning-paragragh{
+    font-size: 20px;
+    text-transform: capitalize;
+    height: 80%;
+    width: 60%;
+    display: flex;
+   justify-content: right;
+   align-items: center;
+
+
+}
+
+.react-container{
+    display: flex;
+   justify-content: left;
+   align-items: center;
+    height: 80%;
+    width: 40%;
+   
+}
+
+#react-image{
+    height: 100%;
+    width: 60%;
 }
 
 .tech-stacks{
@@ -461,7 +506,7 @@ transition: width 2s;
 }
 
 .stack-items{
-    height: 47%;
+    height: 50%;
     width: 23%;
     display: flex;
     justify-content: center;
@@ -474,25 +519,29 @@ transition: width 2s;
 }
 
 #javascript{
-    height: 80%;
+    height: 75%;
 }
 
 #wordpress{
-    height: 80%;
+    height: 75%;
     width: 90%;
 }
 
+#bootstrap{
+    height: 80%;
+}
+
 #html{
-    height: 85%;
+    height: 80%;
 }
 
 #elementor{
-    height: 85%;
+    height: 75%;
     width: 90%;
 }
 
 #css{
-    height: 85%;
+    height: 75%;
     width: 90%;
 }
 
@@ -511,56 +560,85 @@ transition: width 2s;
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .tech{
         height: 70vh;
-    }
-    
-    .tech-details{
-        height: 80%;
-        width: 35%;
-         display: flex;
-        justify-content: center;
+        display: flex;
         align-items: center;
     }
     
-    .tech-stacks{
-        height: 90%;
-        width: 60%;
+    .tech-content{
+        height: 95%;
     }
     
-    .stack-items{
-        height: 30%;
-        width: 32%;
+    .tech-details{
+        height: 45%;
+        width: 40%;
     }
 
     
-#javascript{
-    height: 80%;
-    width: 99%;
+.details-paragraph{
+    width: 100%;
+    height: 50%;
 }
 
-#wordpress{
-    margin-top: 20px;
+.current-learn{
+    width: 100%;
+    height: 40%;
+}
+
+.learning-paragragh{
+    font-size: 20px;
+    height: 80%;
+    width: 60%;
+}
+
+.react-container{
+    height: 100%;
+    width: 40%;
+}
+
+#react-image{
     height: 70%;
     width: 85%;
 }
 
+    .tech-stacks{
+        height: 90%;
+        width: 55%;
+    }
+    
+    .stack-items{
+        height: 30%;
+        width: 30%;
+    }
+
+    
+#javascript{
+    height: 70%;
+    width: 95%;
+}
+
+#wordpress{
+    height: 65%;
+    width: 90%;
+}
+
 #bootstrap{
-    margin-top: 15px;
-    height: 80%;
-    width: 99%;
+    height: 70%;
+    width: 95%;
 }
 
 #html{
-    height: 80%;
+    height: 70%;
+    width: 95%;
 }
 
 #elementor{
-    height: 75%;
+    height: 70%;
     width: 95%;
 }
 
 #css{
-    height: 80%;
-    width: 95%;
+    height: 70%;
+    width: 90%;
 }
 
 #tailwind{
@@ -569,7 +647,7 @@ transition: width 2s;
 }
 
 #squarespace{
-    height: 55%;
+    height: 60%;
     width: 99%;
 }
 
@@ -589,6 +667,33 @@ transition: width 2s;
         height: 70%;
         width: 40%;
     }
+
+      
+.details-paragraph{
+    width: 100%;
+    height: 50%;
+}
+
+.current-learn{
+    width: 100%;
+    height: 40%;
+}
+
+.learning-paragragh{
+    font-size: 20px;
+    height: 80%;
+    width: 60%;
+}
+
+.react-container{
+    height: 100%;
+    width: 40%;
+}
+
+#react-image{
+    height: 70%;
+    width: 85%;
+}
     
     .tech-stacks{
         height: 70%;
@@ -657,6 +762,33 @@ transition: width 2s;
         height: 70%;
         width: 40%;
     }
+
+         
+.details-paragraph{
+    width: 100%;
+    height: 50%;
+}
+
+.current-learn{
+    width: 100%;
+    height: 40%;
+}
+
+.learning-paragragh{
+    font-size: 16px;
+    height: 80%;
+    width: 60%;
+}
+
+.react-container{
+    height: 100%;
+    width: 40%;
+}
+
+#react-image{
+    height: 70%;
+    width: 85%;
+}
     
     .tech-stacks{
         height: 80%;
@@ -718,6 +850,8 @@ transition: width 2s;
 @media (min-width: 320px) and (max-width: 480px) {
     .tech{
         height: 99vh;
+        width: 100%;
+
     }
     
     .tech-content{
@@ -730,6 +864,34 @@ transition: width 2s;
         height: 30%;
         width: 99%;
     }
+
+            
+.details-paragraph{
+    width: 100%;
+    height: 50%;
+}
+
+.current-learn{
+    width: 100%;
+    height: 40%;
+}
+
+.learning-paragragh{
+    font-size: 16px;
+    height: 80%;
+    width: 60%;
+}
+
+.react-container{
+    height: 100%;
+    width: 40%;
+}
+
+#react-image{
+    height: 99%;
+    width: 65%;
+}
+    
     
     .tech-stacks{
         height: 70%;
