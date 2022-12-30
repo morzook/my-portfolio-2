@@ -451,7 +451,6 @@ transition: width 2s;
 }
 
 .tech-stacks{
-    border: 1px solid rgb(255, 255, 255);
     height: 60%;
     width: 45%;
     display: flex;
@@ -722,24 +721,24 @@ transition: width 2s;
     }
     
     .tech-content{
-        height: 95%;
+        height: 99%;
         flex-direction: column;
         justify-content: space-around;
     }
     
     .tech-details{
-        height: 38%;
-        width: 95%;
+        height: 30%;
+        width: 99%;
     }
     
     .tech-stacks{
-        height: 55%;
-        width: 95%;
+        height: 70%;
+        width: 75%;
     }
     
     .stack-items{
-        height: 49%;
-        width: 23%;
+        height: 22%;
+        width: 40%;
     }
     
     .stack-images{
@@ -748,38 +747,41 @@ transition: width 2s;
     }
     
     #javascript{
-        height: 60%;
+        height: 90%;
+        width: 80%;
     }
     
     #wordpress{
-        height: 60%;
-        width: 90%;
+        height: 90%;
+        width: 70%;
     }
     
     #html{
-        height: 60%;
+        height: 90%;
+        width: 75%;
     }
     
     #elementor{
-        height: 55%;
-        width: 90%;
+        height: 90%;
+        width: 70%;
     }
     
     #css{
-        height: 60%;
-        width: 90%;
+        height: 90%;
+        width: 80%;
     }
     
     #tailwind{
     }
     
     #squarespace{
-        height: 50%;
-        width: 95%;
+        height: 90%;
+        width: 90%;
     }
 
     #bootstrap{
-        height: 60%;
+        height: 95%;
+        width: 70%;
     }
 
 
