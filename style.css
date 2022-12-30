@@ -440,12 +440,13 @@ transition: width 2s;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-be; */
 }
 
 .tech-details{
+    background-color: #e9e9e9;
     height: 60%;
-    width: 45%;
+    width: 30%;
      display: flex;
      flex-direction: column;
     justify-content: center;
@@ -569,7 +570,7 @@ transition: width 2s;
     }
     
     .tech-details{
-        height: 45%;
+        height: 65%;
         width: 40%;
     }
 
