@@ -861,8 +861,9 @@ h1{
 }
 
 .project-text{
-    width: 30%;
-    height: 50%;
+    background-color: #2775fc;
+    width: 35%;
+    height: 70%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -886,6 +887,21 @@ h1{
     width: 90%;
     height: 60%;
     font-size: 15px;
+}
+
+.language-used{
+    height: 15%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-used-image{
+    width: 20%;
+    height: 90%;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .project-image-container{
@@ -960,14 +976,25 @@ button{
 }
 
 .project-text{
-    width: 80%;
+    width: 95%;
     height: 30%;
 }
 
 .project-description{
-    width: 95%;
-    height: 60%;
+    width: 99%;
+    height: 65%;
     font-size: 20px;
+}
+
+.language-used{
+    height: 25%;
+}
+
+.language-used-image{
+    height: 95%;
+    width: 10%;
+    margin-left: 5px;
+    margin-bottom: 2px;
 }
 
 .project-image-container{
@@ -1025,18 +1052,33 @@ button{
 
 
 .project-text{
-    width: 45%;
-    height: 50%;
+    width: 48%;
+    height: 85%;
+}
+
+.text-title{
+    height: 15%;
 }
 
 .project-description{
     width: 95%;
-    height: 60%;
+    height: 65%;
     font-size: 20px;
 }
 
+.language-used{
+    height: 10%;
+}
+
+.language-used-image{
+    height: 80%;
+    width: 15%;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
 .project-image-container{
-    width: 80%;
+    width: 60%;
     height: 95%;
 }
 
@@ -1089,6 +1131,7 @@ button{
         }
     
     .project-a, .project-b, .project-c{
+        border: 1px solid red;
         width: 45%;
         height: 99%;
         flex-direction: column-reverse;
@@ -1110,6 +1153,19 @@ button{
         font-size: 15px;
         margin-top: 15px;
     }
+
+    
+.language-used{
+    height: 20%;
+}
+
+.language-used-image{
+    height: 90%;
+    width: 12%;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
     
     .project-image-container{
         width: 90%;
@@ -1186,7 +1242,7 @@ button{
     
     .project-text{
         width: 90%;
-        height: 35%;
+        height: 70%;
     }
     
     .project-description{
@@ -1194,6 +1250,17 @@ button{
         height: 60%;
         font-size: 15px;
         margin-top: 15px;
+    }
+
+    .language-used{
+        height: 20%;
+    }
+    
+    .language-used-image{
+        height: 80%;
+        width: 12%;
+        margin-left: 5px;
+        margin-bottom: 0;
     }
     
     .project-image-container{
