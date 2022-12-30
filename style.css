@@ -170,7 +170,6 @@ transition: width 2s;
     }
     
     .intro{
-        border: 2px solid red;
         height: 75%;
         width: 50%;
     }
@@ -428,6 +427,371 @@ transition: width 2s;
 /* HERO SECTION ENDS */
 
 
+
+/* TECH SECTION STARTS */
+.tech{
+    height: 90vh;
+    background-color: #e1e6f2;
+}
+
+.tech-content{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tech-details{
+    border: 1px solid white;
+    height: 60%;
+    width: 45%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-stacks{
+    border: 1px solid rgb(255, 255, 255);
+    height: 60%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stack-items{
+    height: 47%;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack-images{
+    width: 100%;
+    height: 100%;
+}
+
+#javascript{
+    height: 80%;
+}
+
+#wordpress{
+    height: 80%;
+    width: 90%;
+}
+
+#html{
+    height: 85%;
+}
+
+#elementor{
+    height: 85%;
+    width: 90%;
+}
+
+#css{
+    height: 85%;
+    width: 90%;
+}
+
+#tailwind{
+}
+
+#squarespace{
+    height: 60%;
+    width: 95%;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .tech{
+        height: 70vh;
+    }
+    
+    .tech-details{
+        height: 80%;
+        width: 35%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tech-stacks{
+        height: 90%;
+        width: 60%;
+    }
+    
+    .stack-items{
+        height: 30%;
+        width: 32%;
+    }
+
+    
+#javascript{
+    height: 80%;
+    width: 99%;
+}
+
+#wordpress{
+    margin-top: 20px;
+    height: 70%;
+    width: 85%;
+}
+
+#bootstrap{
+    margin-top: 15px;
+    height: 80%;
+    width: 99%;
+}
+
+#html{
+    height: 80%;
+}
+
+#elementor{
+    height: 75%;
+    width: 95%;
+}
+
+#css{
+    height: 80%;
+    width: 95%;
+}
+
+#tailwind{
+    height: 80%;
+    width: 95%;
+}
+
+#squarespace{
+    height: 55%;
+    width: 99%;
+}
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .tech-content{
+        height: 95%;
+    }
+    
+    .tech-details{
+        height: 70%;
+        width: 40%;
+    }
+    
+    .tech-stacks{
+        height: 70%;
+        width: 55%;
+    }
+    
+    .stack-items{
+        height: 49%;
+        width: 23%;
+    }
+    
+    .stack-images{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #javascript{
+        height: 60%;
+    }
+    
+    #wordpress{
+        height: 60%;
+        width: 90%;
+    }
+    
+    #html{
+        height: 60%;
+    }
+    
+    #elementor{
+        height: 55%;
+        width: 90%;
+    }
+    
+    #css{
+        height: 60%;
+        width: 90%;
+    }
+    
+    #tailwind{
+    }
+    
+    #squarespace{
+        height: 50%;
+        width: 95%;
+    }
+
+    #bootstrap{
+        height: 60%;
+    }
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+
+    .tech-content{
+        height: 99%;
+    }
+    
+    .tech-details{
+        height: 70%;
+        width: 40%;
+    }
+    
+    .tech-stacks{
+        height: 80%;
+        width: 55%;
+    }
+    
+    .stack-items{
+        height: 49%;
+        width: 23%;
+    }
+    
+    .stack-images{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #javascript{
+        height: 60%;
+    }
+    
+    #wordpress{
+        height: 60%;
+        width: 90%;
+    }
+    
+    #html{
+        height: 60%;
+    }
+    
+    #elementor{
+        height: 55%;
+        width: 90%;
+    }
+    
+    #css{
+        height: 60%;
+        width: 90%;
+    }
+    
+    #tailwind{
+    }
+    
+    #squarespace{
+        height: 50%;
+        width: 95%;
+    }
+
+    #bootstrap{
+        height: 60%;
+    }
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .tech{
+        height: 99vh;
+    }
+    
+    .tech-content{
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .tech-details{
+        height: 38%;
+        width: 95%;
+    }
+    
+    .tech-stacks{
+        height: 55%;
+        width: 95%;
+    }
+    
+    .stack-items{
+        height: 49%;
+        width: 23%;
+    }
+    
+    .stack-images{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #javascript{
+        height: 60%;
+    }
+    
+    #wordpress{
+        height: 60%;
+        width: 90%;
+    }
+    
+    #html{
+        height: 60%;
+    }
+    
+    #elementor{
+        height: 55%;
+        width: 90%;
+    }
+    
+    #css{
+        height: 60%;
+        width: 90%;
+    }
+    
+    #tailwind{
+    }
+    
+    #squarespace{
+        height: 50%;
+        width: 95%;
+    }
+
+    #bootstrap{
+        height: 60%;
+    }
+
+
+}
+
+
+
+
+/* TECH SECTION ENDS */
+
+
 .projects{
     color: white;
     height: 300vh;
@@ -437,6 +801,11 @@ transition: width 2s;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 
@@ -564,7 +933,7 @@ button{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .projects{
-        height: 220vh;
+        height: 210vh;
     }
 
     .projects-content{
