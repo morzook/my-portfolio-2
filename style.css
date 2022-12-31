@@ -478,8 +478,6 @@ transition: width 2s;
     display: flex;
    justify-content: right;
    align-items: center;
-
-
 }
 
 .react-container{
@@ -496,9 +494,17 @@ transition: width 2s;
     width: 60%;
 }
 
+.tech-stacks-container{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tech-stacks{
-    height: 60%;
-    width: 45%;
+    height: 70%;
+    width: 99%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -601,9 +607,13 @@ transition: width 2s;
     width: 85%;
 }
 
+.tech-stacks-container{
+    width: 55%;
+}
+
     .tech-stacks{
         height: 90%;
-        width: 55%;
+        width: 99%;
     }
     
     .stack-items{
@@ -695,10 +705,14 @@ transition: width 2s;
     height: 70%;
     width: 85%;
 }
+
+.tech-stacks-container{
+    width: 55%;
+}
     
     .tech-stacks{
         height: 70%;
-        width: 55%;
+        width: 99%;
     }
     
     .stack-items{
@@ -790,10 +804,14 @@ transition: width 2s;
     height: 70%;
     width: 85%;
 }
+
+.tech-stacks-container{
+    width: 55%;
+}
     
     .tech-stacks{
         height: 80%;
-        width: 55%;
+        width: 99%;
     }
     
     .stack-items{
@@ -862,7 +880,7 @@ transition: width 2s;
     }
     
     .tech-details{
-        height: 30%;
+        height: 40%;
         width: 99%;
     }
 
@@ -892,11 +910,14 @@ transition: width 2s;
     height: 99%;
     width: 65%;
 }
-    
+
+.tech-stacks-container{
+    width: 60%;
+}
     
     .tech-stacks{
-        height: 70%;
-        width: 75%;
+        height: 75%;
+        width: 95%;
     }
     
     .stack-items{
