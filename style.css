@@ -751,7 +751,6 @@ transition: width 2s;
 }
 
 .tech-details{
-    border: 1px solid rgb(0, 255, 149);
     height: 90%;
     width: 60%;
      display: flex;
@@ -801,7 +800,7 @@ transition: width 2s;
 }
 
 #react-image{
-    height: 80%;
+    height: 90%;
     width: 40%;
 }
 
@@ -886,7 +885,7 @@ transition: width 2s;
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .tech{
-        height: 70vh;
+        height: 80vh;
         display: flex;
         align-items: center;
     }
@@ -897,14 +896,14 @@ transition: width 2s;
     
     .tech-details{
         height: 90%;
-        width: 40%;
+        width: 60%;
     }
 
     
 .details-paragraph{
     width: 100%;
     height: 70%;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 .current-learn{
@@ -915,7 +914,7 @@ transition: width 2s;
 .learning-paragragh{
     font-size: 20px;
     height: 80%;
-    width: 60%;
+    width: 55%;
 }
 
 .react-container{
@@ -924,12 +923,12 @@ transition: width 2s;
 }
 
 #react-image{
-    height: 70%;
-    width: 85%;
+    height: 75%;
+    width: 80%;
 }
 
 .tech-stacks-container{
-    width: 55%;
+    width: 40%;
 }
 
     .tech-stacks{
@@ -938,8 +937,8 @@ transition: width 2s;
     }
     
     .stack-items{
-        height: 30%;
-        width: 30%;
+        height: 25%;
+        width: 45%;
     }
 
     
@@ -950,27 +949,27 @@ transition: width 2s;
 
 #wordpress{
     height: 65%;
-    width: 90%;
+    width: 80%;
 }
 
 #bootstrap{
-    height: 70%;
-    width: 95%;
+    height: 75%;
+    width: 90%;
 }
 
 #html{
     height: 70%;
-    width: 95%;
+    width: 90%;
 }
 
 #elementor{
-    height: 70%;
-    width: 95%;
+    height: 65%;
+    width: 75%;
 }
 
 #css{
     height: 70%;
-    width: 90%;
+    width: 85%;
 }
 
 #tailwind{
@@ -998,12 +997,12 @@ transition: width 2s;
     
     .tech-content{
         height: 95%;
-        width: 99%;
+        /* width: 99%; */
     }
     
     .tech-details{
         height: 90%;
-        width: 45%;
+        width: 60%;
     }
 
       
@@ -1030,22 +1029,27 @@ transition: width 2s;
 }
 
 #react-image{
-    height: 70%;
-    width: 85%;
+    height: 85%;
+    width: 50%;
 }
 
 .tech-stacks-container{
-    width: 55%;
+    width: 40%;
+    height: 90%;
+}
+
+.stack-heading{
+    height: 10%;
 }
     
     .tech-stacks{
-        height: 70%;
+        height: 85%;
         width: 99%;
     }
     
     .stack-items{
-        height: 49%;
-        width: 23%;
+        height: 25%;
+        width: 40%;
     }
     
     .stack-images{
@@ -1054,38 +1058,41 @@ transition: width 2s;
     }
     
     #javascript{
-        height: 60%;
+        height: 80%;
+        width: 70% ;
     }
     
     #wordpress{
-        height: 60%;
-        width: 90%;
+        height: 75%;
+        width: 60%;
     }
     
     #html{
-        height: 60%;
+        height: 85%;
+        width: 75%;
     }
     
     #elementor{
-        height: 55%;
-        width: 90%;
+        height: 75%;
+        width: 60%;
     }
     
     #css{
-        height: 60%;
-        width: 90%;
+        height: 85%;
+        width: 60%;
     }
     
     #tailwind{
     }
     
     #squarespace{
-        height: 50%;
+        height: 80%;
         width: 95%;
     }
 
     #bootstrap{
-        height: 60%;
+        height: 90%;
+        width: 70%;
     }
 
 }
@@ -1103,7 +1110,7 @@ transition: width 2s;
     
     .tech-details{
         height: 90%;
-        width: 55%;
+        width: 60%;
     }
 
          
@@ -1136,7 +1143,7 @@ transition: width 2s;
 }
 
 .tech-stacks-container{
-    width: 45%;
+    width: 40%;
 }
     
     .tech-stacks{
@@ -1145,11 +1152,11 @@ transition: width 2s;
     }
     
     .stack-items{
-        height: 49%;
-        width: 23%;
+        height: 25%;
+        width: 45%;
     }
     
-    .stack-images{
+    /* .stack-images{
         width: 100%;
         height: 100%;
     }
@@ -1187,7 +1194,7 @@ transition: width 2s;
 
     #bootstrap{
         height: 60%;
-    }
+    } */
 
 
 }
@@ -1198,9 +1205,9 @@ transition: width 2s;
 */
 @media (min-width: 320px) and (max-width: 480px) {
     .tech{
-        height: 99vh;
-        width: 100%;
-
+        height: 100vh;
+        display: flex;
+        justify-content: center;
     }
     
     .tech-content{
@@ -1210,7 +1217,7 @@ transition: width 2s;
     }
     
     .tech-details{
-        height: 50%;
+        height: 60%;
         width: 100%;
     }
 
@@ -1220,6 +1227,7 @@ transition: width 2s;
     line-height: 20px;
     width: 100%;
     height: 75%;
+    padding: 5px;
 }
 
 .current-learn{
@@ -1244,26 +1252,24 @@ transition: width 2s;
 }
 
 .tech-stacks-container{
-    height: 50%;
-    width: 70%;
+    height: 35%;
+    width: 95%;
 }
 
 .tech-stacks{
-    height: 85%;
+    height: 80%;
     width: 95%;
 }
 
 .stack-heading{
-    border: 1px solid red;
     margin-top: -2px;
-        font-size: 20px;
-        height: 15%;
-
+        font-size: 23px;
+        height: 10%;
     }
     
     .stack-items{
-        height: 22%;
-        width: 40%;
+        height: 33%;
+        width: 30%;
     }
     
     .stack-images{
@@ -1272,41 +1278,43 @@ transition: width 2s;
     }
     
     #javascript{
-        height: 90%;
-        width: 80%;
+        height: 95%;
+        width: 60%;
     }
     
     #wordpress{
-        height: 90%;
-        width: 70%;
+        height: 95%;
+        width: 55%;
     }
     
     #html{
-        height: 90%;
-        width: 75%;
+        height: 95%;
+        width: 65%;
     }
     
     #elementor{
         height: 90%;
-        width: 70%;
+        width: 50%;
     }
     
     #css{
         height: 90%;
-        width: 80%;
+        width: 50%;
     }
     
     #tailwind{
+        height: 150%;
+        width: 90%;
     }
     
     #squarespace{
-        height: 90%;
-        width: 90%;
+        height: 99%;
+        width: 70%;
     }
 
     #bootstrap{
         height: 95%;
-        width: 70%;
+        width: 60%;
     }
 
 
