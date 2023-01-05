@@ -738,24 +738,22 @@ transition: width 2s;
 /* TECH SECTION STARTS */
 .tech{
     height: 100vh;
-    background-color: #e1e6f2;
-    width: 100%;
 }
 
 .tech-content{
+    background-color:  #e1e6f2;
     height: 95%;
     width: 100%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
 }
 
 .tech-details{
-    background-color: #e4ebf8;
+    border: 1px solid rgb(0, 255, 149);
     height: 90%;
-    width: 40%;
+    width: 60%;
      display: flex;
      flex-direction: column;
     justify-content: center;
@@ -763,14 +761,15 @@ transition: width 2s;
 }
 
 .details-paragraph{
-    /* border: 1px solid red; */
-    line-height: 32px;
+    /* line-height: 5px; */
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 70%;
+    padding: 5px;
+    
     text-align: center;
 }
 
@@ -802,12 +801,12 @@ transition: width 2s;
 }
 
 #react-image{
-    height: 100%;
-    width: 60%;
+    height: 80%;
+    width: 40%;
 }
 
 .tech-stacks-container{
-    width: 50%;
+    width: 35%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -823,14 +822,14 @@ transition: width 2s;
     width: 99%;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     flex-wrap: wrap;
 }
 
 .stack-items{
-    height: 50%;
-    width: 23%;
+    height: 30%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -842,38 +841,43 @@ transition: width 2s;
 }
 
 #javascript{
-    height: 75%;
+    height: 80%;
+    width: 55%;
 }
 
 #wordpress{
-    height: 75%;
-    width: 90%;
+    height: 80%;
+    width: 45%;
 }
 
 #bootstrap{
-    height: 80%;
+    height: 85%;
+    width: 55% ;
 }
 
 #html{
-    height: 80%;
+    height: 75%;
+    width: 50%;
 }
 
 #elementor{
-    height: 75%;
-    width: 90%;
+    height: 80%;
+    width: 45%;
 }
 
 #css{
-    height: 75%;
-    width: 90%;
+    height: 80%;
+    width: 45%;
 }
 
 #tailwind{
+    width: 80%;
+    height: 99%;
 }
 
 #squarespace{
-    height: 60%;
-    width: 95%;
+    height: 80%;
+    width: 70%;
 }
 
 /* 
