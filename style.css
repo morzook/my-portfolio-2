@@ -1472,8 +1472,16 @@ h1{
 }
 
 button{
+    border: none;
+    text-transform: capitalize;
+    font-size: 25px;
     width: 100%;
     height: 100%;
+}
+
+button:hover{
+    background-color: turquoise;
+    color: rgb(128, 114, 114);
 }
 
 
@@ -1843,7 +1851,7 @@ button{
     font-size: 25px;
     font-weight: bold;
     text-transform: capitalize;
-    height: 10%;
+    height: 8%;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -1853,7 +1861,7 @@ button{
 
 .writing-container{
     width: 70%;
-    height: 85%;
+    height: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -1878,6 +1886,28 @@ button{
     width: 95%;
     height: 25%;
     text-align: center;
+}
+
+.more-articles-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.more-articles{
+    background-color: rgb(59, 119, 231);
+    border: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    width: 50%;
+}
+
+.more-articles:hover{
+    background-color: turquoise;
+    color: rgb(68, 66, 66);
 }
 
 /* 
@@ -1909,6 +1939,12 @@ button{
         width: 95%;
         height: 30%;
     }
+
+    .more-articles{
+        width: 80%;
+    }
+
+
 }
 
 
@@ -1919,12 +1955,12 @@ button{
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
      
     .writing{
-        height: 80vh;
+        height: 90vh;
     }
 
     .writing-container{
         width: 90%;
-        height: 85%;
+        height: 80%;
     }
 
     
@@ -1943,7 +1979,7 @@ button{
     
     .writing-container{
         width: 90%;
-        height: 85%;
+        height: 75%;
     }
 
     .articles{
@@ -1960,6 +1996,16 @@ button{
         width: 95%;
         height: 25%;
         font-size: 12px;
+    }
+
+    .more-articles-btn-container{
+        height: 10%;
+    }
+
+    .more-articles{
+        height: 100%;
+        font-size: 25px;
+        width: 80%;
     }
 }
 
@@ -1982,7 +2028,7 @@ button{
         width: 90%;
         height: 15%;
         flex-direction: row;
-        box-shadow: teal 0px 0px 1px 1px;
+        box-shadow: #005FFF 0px 0px 0px 1px;
 
     }
     
@@ -1998,6 +2044,12 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .more-articles{
+        font-size: 25px;
+        width: 100%;
+        height: 100%;
     }
 
 }
