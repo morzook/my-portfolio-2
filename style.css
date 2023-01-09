@@ -737,44 +737,104 @@ transition: width 2s;
 
 /* TECH SECTION STARTS */
 .tech{
-    height: 100vh;
+    height: 60vh;
+    background-color:  #e1e6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tech-content{
-    background-color:  #e1e6f2;
-    height: 95%;
+    height: 98%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
 }
 
-.tech-details{
-    height: 90%;
+
+.tech-stacks-container{
     width: 60%;
-     display: flex;
-     flex-direction: column;
-    justify-content: center;
+    height:75%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.details-paragraph{
-    /* line-height: 5px; */
-    font-size: 20px;
+.stack-heading{
+    text-transform: capitalize;
+    height: 15%;
+}
+
+.tech-stacks{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stack-items{
+    height: 45%;
+    width: 23%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.stack-images{
+    width: 100%;
+    height: 100%;
+}
+
+#javascript{
+    height:95%;
+    width: 75%;
+}
+
+#wordpress{
+    height: 95%;
+    width: 65%;
+}
+
+#bootstrap{
+    height: 99%;
+    width: 80% ;
+}
+
+#html{
+    height: 95%;
+    width: 75%;
+}
+
+#elementor{
+    height: 90%;
+    width: 65%;
+}
+
+#css{
+    height: 90%;
+    width: 65%;
+}
+
+#tailwind{
+    width: 99%;
+    height: 120%;
+}
+
+#squarespace{
+    height: 90%;
     width: 90%;
-    height: 70%;
-    padding: 5px;
-    
-    text-align: center;
 }
 
 .current-learn{
-    width: 100%;
-    height: 25%;
+    box-shadow: #c1d3f1 0px 1px 0px 2px;
+    width: 30%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -794,90 +854,16 @@ transition: width 2s;
     display: flex;
    justify-content: left;
    align-items: center;
-    height: 80%;
+    height: 99%;
     width: 40%;
    
 }
 
 #react-image{
     height: 90%;
-    width: 40%;
-}
-
-.tech-stacks-container{
-    width: 35%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.stack-heading{
-    text-transform: capitalize;
-}
-
-.tech-stacks{
-    height: 70%;
-    width: 99%;
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-around; */
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.stack-items{
-    height: 30%;
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.stack-images{
-    width: 100%;
-    height: 100%;
-}
-
-#javascript{
-    height: 80%;
-    width: 55%;
-}
-
-#wordpress{
-    height: 80%;
-    width: 45%;
-}
-
-#bootstrap{
-    height: 85%;
-    width: 55% ;
-}
-
-#html{
-    height: 75%;
     width: 50%;
 }
 
-#elementor{
-    height: 80%;
-    width: 45%;
-}
-
-#css{
-    height: 80%;
-    width: 45%;
-}
-
-#tailwind{
-    width: 80%;
-    height: 99%;
-}
-
-#squarespace{
-    height: 80%;
-    width: 70%;
-}
 
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -885,102 +871,97 @@ transition: width 2s;
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .tech{
-        height: 80vh;
+        height: 50vh;
         display: flex;
         align-items: center;
     }
     
     .tech-content{
-        height: 95%;
+        height: 99%;
     }
     
-    .tech-details{
-        height: 90%;
-        width: 60%;
+
+.tech-stacks-container{
+    height: 70%;
+    width: 99%;
+}
+
+.stack-heading{
+    height: 15%;
+}
+
+    .tech-stacks{
+        height: 82%;
+        width: 99%;
+    }
+    
+    .stack-items{
+        height: 45%;
+        width: 22%;
     }
 
     
-.details-paragraph{
-    width: 100%;
-    height: 70%;
-    line-height: 30px;
+#javascript{
+    height: 90%;
+    width: 85%;
+}
+
+#wordpress{
+    height: 90%;
+    width: 75%;
+}
+
+#bootstrap{
+    height: 99%;
+    width: 95%;
+}
+
+#html{
+    height: 90%;
+    width: 85%;
+}
+
+#elementor{
+    height: 85%;
+    width: 75%;
+}
+
+#css{
+    height: 90%;
+    width: 75%;
+}
+
+#tailwind{
+    height: 120%;
+    width: 99%;
+}
+
+#squarespace{
+    height: 80%;
+    width: 99%;
 }
 
 .current-learn{
-    width: 100%;
-    height: 25%;
+    width: 50%;
+    height: 20%;
 }
 
 .learning-paragragh{
-    font-size: 20px;
+    font-size: 25px;
     height: 80%;
     width: 55%;
 }
 
 .react-container{
-    height: 100%;
+    height: 90%;
     width: 40%;
 }
 
 #react-image{
-    height: 75%;
-    width: 80%;
+    height: 99%;
+    width: 70%;
 }
 
-.tech-stacks-container{
-    width: 40%;
-}
-
-    .tech-stacks{
-        height: 90%;
-        width: 99%;
-    }
-    
-    .stack-items{
-        height: 25%;
-        width: 45%;
-    }
-
-    
-#javascript{
-    height: 70%;
-    width: 95%;
-}
-
-#wordpress{
-    height: 65%;
-    width: 80%;
-}
-
-#bootstrap{
-    height: 75%;
-    width: 90%;
-}
-
-#html{
-    height: 70%;
-    width: 90%;
-}
-
-#elementor{
-    height: 65%;
-    width: 75%;
-}
-
-#css{
-    height: 70%;
-    width: 85%;
-}
-
-#tailwind{
-    height: 80%;
-    width: 95%;
-}
-
-#squarespace{
-    height: 60%;
-    width: 99%;
-}
 
 }
 
@@ -997,49 +978,17 @@ transition: width 2s;
     
     .tech-content{
         height: 95%;
-        /* width: 99%; */
-    }
-    
-    .tech-details{
-        height: 90%;
-        width: 60%;
     }
 
-      
-.details-paragraph{
-    line-height: 28px;
-    width: 100%;
-    height: 80%;
-}
-
-.current-learn{
-    width: 100%;
-    height: 20%;
-}
-
-.learning-paragragh{
-    font-size: 20px;
-    height: 80%;
-    width: 60%;
-}
-
-.react-container{
-    height: 100%;
-    width: 40%;
-}
-
-#react-image{
-    height: 85%;
-    width: 50%;
-}
 
 .tech-stacks-container{
-    width: 40%;
-    height: 90%;
+    width: 60%;
+    height: 75%;
 }
 
 .stack-heading{
     height: 10%;
+    margin-top: -5px ;
 }
     
     .tech-stacks{
@@ -1048,8 +997,8 @@ transition: width 2s;
     }
     
     .stack-items{
-        height: 25%;
-        width: 40%;
+        height: 45%;
+        width: 23%;
     }
     
     .stack-images{
@@ -1058,13 +1007,13 @@ transition: width 2s;
     }
     
     #javascript{
-        height: 80%;
-        width: 70% ;
+        height: 90%;
+        width: 85% ;
     }
     
     #wordpress{
-        height: 75%;
-        width: 60%;
+        height: 90%;
+        width: 75%;
     }
     
     #html{
@@ -1073,13 +1022,13 @@ transition: width 2s;
     }
     
     #elementor{
-        height: 75%;
-        width: 60%;
+        height: 85%;
+        width: 75%;
     }
     
     #css{
-        height: 85%;
-        width: 60%;
+        height: 95%;
+        width: 75%;
     }
     
     #tailwind{
@@ -1091,9 +1040,31 @@ transition: width 2s;
     }
 
     #bootstrap{
-        height: 90%;
-        width: 70%;
+        height: 99%;
+        width: 95%;
     }
+
+        
+.current-learn{
+    width: 50%;
+    height: 20%;
+}
+
+.learning-paragragh{
+    font-size: 25px;
+    height: 80%;
+    width: 60%;
+}
+
+.react-container{
+    height: 100%;
+    width: 40%;
+}
+
+#react-image{
+    height: 95%;
+    width: 40%;
+}
 
 }
 
@@ -1104,46 +1075,21 @@ transition: width 2s;
 */
 @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
+    .tech{
+        height: 70vh;
+    }
+    
     .tech-content{
         height: 99%;
     }
-    
-    .tech-details{
-        height: 90%;
-        width: 60%;
+
+    .stack-heading{
+        height: 10%;
+        margin-top: -2px;
     }
-
-         
-.details-paragraph{
-    width: 100%;
-    height: 80%;
-    line-height: 25px;
-    font-size: 15px;
-}
-
-.current-learn{
-    width: 100%;
-    height: 20%;
-}
-
-.learning-paragragh{
-    font-size: 16px;
-    height: 80%;
-    width: 60%;
-}
-
-.react-container{
-    height: 100%;
-    width: 20%;
-}
-
-#react-image{
-    height: 90%;
-    width: 90%;
-}
-
-.tech-stacks-container{
-    width: 40%;
+    
+    .tech-stacks-container{
+    width: 70%;
 }
     
     .tech-stacks{
@@ -1152,49 +1098,31 @@ transition: width 2s;
     }
     
     .stack-items{
-        height: 25%;
-        width: 45%;
-    }
+        height: 45%;
+        width: 24%;
+    } 
     
-    /* .stack-images{
-        width: 100%;
-        height: 100%;
-    }
     
-    #javascript{
-        height: 60%;
-    }
-    
-    #wordpress{
-        height: 60%;
-        width: 90%;
-    }
-    
-    #html{
-        height: 60%;
-    }
-    
-    #elementor{
-        height: 55%;
-        width: 90%;
-    }
-    
-    #css{
-        height: 60%;
-        width: 90%;
-    }
-    
-    #tailwind{
-    }
-    
-    #squarespace{
-        height: 50%;
-        width: 95%;
-    }
+.current-learn{
+    width: 40%;
+    height: 20%;
+}
 
-    #bootstrap{
-        height: 60%;
-    } */
+.learning-paragragh{
+    font-size: 20px;
+    height: 80%;
+    width: 50%;
+}
+
+.react-container{
+    height: 100%;
+    width: 50%;
+}
+
+#react-image{
+    height: 99%;
+    width: 45%;
+}
 
 
 }
@@ -1205,7 +1133,7 @@ transition: width 2s;
 */
 @media (min-width: 320px) and (max-width: 480px) {
     .tech{
-        height: 100vh;
+        height: 60vh;
         display: flex;
         justify-content: center;
     }
@@ -1215,61 +1143,26 @@ transition: width 2s;
         flex-direction: column;
         justify-content: space-around;
     }
-    
-    .tech-details{
-        height: 60%;
-        width: 100%;
-    }
-
-            
-.details-paragraph{
-    font-size: 18px;
-    line-height: 20px;
-    width: 100%;
-    height: 75%;
-    padding: 5px;
-}
-
-.current-learn{
-    width: 100%;
-    height: 20%;
-}
-
-.learning-paragragh{
-    font-size: 16px;
-    height: 80%;
-    width: 60%;
-}
-
-.react-container{
-    height: 100%;
-    width: 40%;
-}
-
-#react-image{
-    height: 90%;
-    width: 50%;
-}
 
 .tech-stacks-container{
-    height: 35%;
-    width: 95%;
+    height: 80%;
+    width: 80%;
 }
 
 .tech-stacks{
-    height: 80%;
+    height: 85%;
     width: 95%;
 }
 
 .stack-heading{
     margin-top: -2px;
-        font-size: 23px;
-        height: 10%;
-    }
-    
-    .stack-items{
-        height: 33%;
-        width: 30%;
+    height: 10%;
+}
+
+.stack-items{
+    margin-top: -4px;
+        height: 25%;
+        width: 45%;
     }
     
     .stack-images{
@@ -1283,13 +1176,13 @@ transition: width 2s;
     }
     
     #wordpress{
-        height: 95%;
-        width: 55%;
+        height: 92%;
+        width: 50%;
     }
     
     #html{
         height: 95%;
-        width: 65%;
+        width: 60%;
     }
     
     #elementor{
@@ -1313,9 +1206,32 @@ transition: width 2s;
     }
 
     #bootstrap{
-        height: 95%;
-        width: 60%;
+        height: 99%;
+        width: 65%;
     }
+
+       
+.current-learn{
+    box-shadow: #c1d3f1 0px 1px 0px 2px;
+    width: 60%;
+    height: 15%;
+}
+
+.learning-paragragh{
+    font-size: 20px;
+    height: 80%;
+    width: 70%;
+}
+
+.react-container{
+    height: 100%;
+    width: 30%;
+}
+
+#react-image{
+    height: 80%;
+    width: 90%;
+}
 
 
 }
@@ -1480,8 +1396,8 @@ button{
 }
 
 button:hover{
+    color: white;
     background-color: turquoise;
-    color: rgb(128, 114, 114);
 }
 
 
@@ -1899,6 +1815,7 @@ button{
 
 .more-articles{
     background-color: rgb(59, 119, 231);
+    color: white;
     border: none;
     text-transform: capitalize;
     font-size: 25px;
@@ -2163,4 +2080,5 @@ button{
  }
 
 }
-  
+
+
