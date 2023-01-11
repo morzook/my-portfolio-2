@@ -1,0 +1,732 @@
+body{
+    background-color: #005FFF;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+     overflow-x: hidden; 
+}
+
+
+/* NAVBAR */
+.navbar-area {
+    height: 7vh;
+    width: 100%;
+    /* position: fixed; */
+    background-color: #005FFF;
+
+  }
+
+.site-navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.site-logo {
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-navbar ul {
+    height: 100%;
+    margin-right: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+.site-navbar ul li a {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  } 
+
+.site-navbar ul li a:hover {
+    background: rgba(128, 22, 22, 0.1);
+  }  
+  
+  .nav-toggler {
+    border: none;
+    margin-right: 8px;
+    width: 45px;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 39px;
+    display: none;
+  }
+  
+  .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+  }
+  .nav-toggler span:before {
+    content: '';
+    transform: translateY(-9px);
+  }
+  .nav-toggler span:after {
+    content: '';
+    transform: translateY(6px);
+  }
+  .nav-toggler.toggler-open span {
+    background-color: transparent;
+  }
+  .nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+  }
+  .nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+   .navbar-area{
+       height: 50px;
+   }
+
+  a.site-logo{
+    font-size: 30px;
+    margin-left: 10px;
+    }
+    .container {
+      max-width: 1024px;
+    }
+    .nav-toggler{
+      display: block;
+      margin-right: 20px;
+    }
+    .site-navbar {
+      min-height: 50px;
+    }
+
+.site-navbar ul li a {
+    color: black;
+    font-size: 25px;
+}
+
+    
+  .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 200px);
+      left: 0;
+      top: 35px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(246, 250, 246);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    
+    .site-navbar ul li a {
+        padding: 20px;
+        }
+
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+     
+    .navbar-area{
+        height: 50px;
+        width: 100vw;
+    }
+
+   a.site-logo{
+     font-size: 30px;
+     margin-left: 10px;
+     }
+     .container {
+       max-width: 1024px;
+     }
+     .nav-toggler{
+       display: block;
+       margin-right: 30px;
+     }
+
+     .site-navbar {
+       min-height: 50px;
+     }
+ 
+ .site-navbar ul li a {
+     color: black;
+     font-size: 25px;
+ }
+ 
+     
+   .site-navbar ul {
+       position: absolute;
+       width: 100vw;
+       height: calc(100vh - 100px);
+       left: 0;
+       top: 35px;
+       flex-direction: column;
+       align-items: center;
+       background-color: rgb(246, 250, 246);
+       max-height: 0;
+       overflow: hidden;
+       transition: .3s;
+     }
+     
+     .site-navbar ul li a {
+         padding: 20px;
+         }
+ 
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape)  {
+   .navbar-area{
+       height: 50px;
+       width: 100vw;
+    }
+
+    
+   a.site-logo{
+    font-size: 30px;
+    margin-left: 10px;
+    }
+    
+    .container {
+      max-width: 767px;
+    }
+    .nav-toggler{
+      display: block;
+      margin-right: 10px;
+    }
+    .site-navbar {
+      min-height: 50px;
+    }
+
+.site-navbar ul li a {
+    color: black;
+}
+
+    
+  .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 60px);
+      left: 0;
+      top: 35px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(246, 250, 246);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    
+    .site-navbar ul li a {
+        padding: 20px;
+        }
+    
+ 
+   
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+   .navbar-area{
+       /* border: 1px solid rgb(252, 248, 252); */
+       height: 50px;
+   }
+
+   a.site-logo{
+    font-size: 30px;
+    margin-left: 5px;
+    }
+
+    .container {
+      max-width: 480px;
+    }
+    .nav-toggler{
+      display: block;
+    }
+    .site-navbar {
+      min-height: 50px;
+    }
+
+.site-navbar ul li a {
+    color: black;
+}
+
+    
+  .site-navbar ul {
+      position: absolute;
+      width: 100vw;
+      height: calc(100vh - 60px);
+      left: 0;
+      top: 35px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(246, 250, 246);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    
+    .site-navbar ul li a {
+        padding: 20px;
+        }
+
+}
+
+/* NAVBAR ENDS*/
+
+
+.more-projects{
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-projects-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 95%;
+    width: 95%;
+}
+
+h2{
+    /* margin: 7px; */
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.javascript-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 32%;
+
+}
+.css-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 32%;
+}
+
+.elementor-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 32%;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    height: 48%;
+}
+
+.project-image-container{
+    height: 99%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image{
+    width: 98%;
+    height: 99%;
+}
+.project-description{
+    height: 99%;
+    width: 49%;
+    background-color: #2775fc;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .more-projects{
+        height: 150vh;
+    }
+    
+    .more-projects-container{
+        height: 95%;
+        width: 99%;
+    }
+    
+    .javascript-projects{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 99%;
+        height: 30%;
+    
+    }
+    .css-projects{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 99%;
+        height: 30%;
+    }
+    
+    .elementor-projects{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 99%;
+        height: 30%;
+    }
+    
+    .project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48%;
+        height: 48%;
+    }
+    
+    .project-image-container{
+        height: 99%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project-image{
+        width: 98%;
+        height: 99%;
+    }
+    .project-description{
+        height: 99%;
+        width: 60%;
+        background-color: #2775fc;
+    }
+
+   
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .more-projects{
+        height: 250vh;
+    }
+    
+    .more-projects-container{
+        height: 95%;
+        width: 99%;
+    }
+
+    .javascript-projects{
+        width: 99%;
+        height: 30%;
+    
+    }
+    .css-projects{
+        width: 99%;
+        height: 30%;
+    }
+    
+    .elementor-projects{
+        width: 99%;
+        height: 30%;
+    }
+
+    .project{
+        width: 48%;
+        height: 48%;
+    }
+
+    .project-image-container{
+        height: 99%;
+        width: 40%;
+    }
+    
+    .project-image{
+        width: 98%;
+        height: 99%;
+    }
+    .project-description{
+        height: 99%;
+        width: 60%;
+    }
+
+    
+    
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+    .more-projects{
+        height: 350vh;
+    }
+    
+    .more-projects-container{
+        height: 95%;
+        width: 99%;
+    }
+
+    .javascript-projects{
+        width: 99%;
+        height: 30%;
+    
+    }
+    .css-projects{
+        width: 99%;
+        height: 30%;
+    }
+    
+    .elementor-projects{
+        width: 99%;
+        height: 30%;
+    }
+
+    .project{
+        width: 48%;
+        height: 48%;
+    }
+
+    .project-image-container{
+        height: 99%;
+        width: 40%;
+    }
+    
+    .project-image{
+        width: 98%;
+        height: 99%;
+    }
+    .project-description{
+        height: 99%;
+        width: 60%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .more-projects{
+        height: 400vh;
+    }
+    
+    .more-projects-container{
+        height: 95%;
+        width: 99%;
+    }
+
+    .javascript-projects{
+        width: 99%;
+        height: 30%;
+    
+    }
+    .css-projects{
+        width: 99%;
+        height: 30%;
+    }
+    
+    .elementor-projects{
+        width: 99%;
+        height: 30%;
+    }
+
+    .project{
+        width: 90%;
+        height: 24%;
+    }
+
+    .project-image-container{
+        height: 99%;
+        width: 40%;
+    }
+    
+    .project-image{
+        width: 98%;
+        height: 99%;
+    }
+    .project-description{
+        height: 99%;
+        width: 60%;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* CONTACT SECTION STARTS */
+.contact{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;
+    padding: 5px 30px 30px 30px;
+    border-radius: 5px;
+  }
+  
+  .form-heading {
+    text-align: center;
+  }
+
+  .form-paragraph{
+      opacity: 70%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    margin-top: -15px;
+    padding: 10px;
+    border-top: 0px solid;
+    border-right: 0px solid;
+    border-left: 0px solid;
+    border-bottom: 2px solid rgba(107, 107, 107, 0.397);
+    border-radius: 1px;
+  }
+
+  .submit-container{
+      display: flex;
+      justify-content: center;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(10, 36, 71);
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+    width: 40%;
+    height: 80%;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: turquoise;
+    color: black;
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+   .contact{
+       height: 70vh;
+   }
+   
+    .form-container{
+        margin-top: -100px;
+       width: 75%;
+       height: 60%;
+   }
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+
+}
+
+  /* ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px */
+
+@media (min-width: 320px) and (max-width: 480px) {
+ .form-container{
+     width: 80%;
+ }
+
+}
+
+
