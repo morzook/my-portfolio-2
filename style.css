@@ -1335,7 +1335,7 @@ h1{
     width: 99%;
     height: 20%;
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .project-description{
@@ -1721,12 +1721,19 @@ button{
     
     .project-text{
         width: 90%;
-        height: 70%;
+        height: 80%;
+    }
+
+    .text-title{
+    border: 1px solid red;
+    font-size: 25px;
+
     }
     
     .project-description{
+        border: 1px solid red;
         width: 95%;
-        height: 60%;
+        height: 65%;
         font-size: 15px;
         margin-top: 15px;
     }
@@ -1751,11 +1758,17 @@ button{
     .project-image-container{
         width: 90%;
         height: 100%;
+        border: 1px solid red;
     }
     
     #weather-app{
-        width: 85%;
-        height: 90%; 
+        width: 95%;
+        height: 95%; 
+    }
+    
+    #quiz-game{
+        width: 95%;
+        height: 95%; 
     }
     
     .a-image{
