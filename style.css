@@ -1339,6 +1339,7 @@ h1{
 }
 
 .project-description{
+    color: #e8e8e9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1416,7 +1417,7 @@ button{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .projects{
-        height: 210vh;
+        height: 250vh;
     }
 
     .projects-content{
@@ -1458,8 +1459,8 @@ button{
 }
 
 .language-used-image{
-    height: 95%;
-    width: 15%;
+    height: 90%;
+    width: 12%;
     margin-left: 5px;
     margin-bottom: 2px;
 }
@@ -1471,7 +1472,7 @@ button{
 }
 
 .project-image-container{
-    width: 70%;
+    width: 80%;
     height: 70%;
 }
 
@@ -1481,7 +1482,7 @@ button{
 }
 
 .a-image{
-    width: 90%;
+    width: 95%;
     height: 90%; 
 }
 
@@ -1615,8 +1616,8 @@ button{
     }
     
     .project-text{
-        width: 90%;
-        height: 35%;
+        width: 99%;
+        height: 30%;
         margin-top: 5px;
     }
     
@@ -1629,7 +1630,7 @@ button{
 
     
 .language-used{
-    height: 20%;
+    height: 15%;
 }
 
 #css-3{
@@ -1638,9 +1639,13 @@ button{
 
 }
 
+.language-used{
+    height: 20%;
+}
+
 .language-used-image{
     height: 90%;
-    width: 15%;
+    width: 10%;
     margin-left: 5px;
     margin-bottom: 0;
 }
@@ -1652,8 +1657,8 @@ button{
     }
     
     #weather-app{
-        width: 70%;
-        height: 95%; 
+        width: 65%;
+        height: 90%; 
     }
 
     #quiz-game{
@@ -1667,7 +1672,7 @@ button{
     }
     
     .more-project-btn-container{
-        margin-bottom: 30px;
+        margin-bottom: 0;
         width: 30%;
         height: 3%;
     }
@@ -1725,13 +1730,11 @@ button{
     }
 
     .text-title{
-    border: 1px solid red;
     font-size: 25px;
 
     }
     
     .project-description{
-        border: 1px solid red;
         width: 95%;
         height: 65%;
         font-size: 15px;
@@ -1758,7 +1761,6 @@ button{
     .project-image-container{
         width: 90%;
         height: 100%;
-        border: 1px solid red;
     }
     
     #weather-app{
