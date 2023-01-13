@@ -1329,24 +1329,22 @@ h1{
 }
 
 .text-title{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 99%;
     height: 20%;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .project-description{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 60%;
-    font-size: 20px;
+    width: 99%;
+    height: 62%;
+    font-size: 18px;
 }
 
 .language-used{
