@@ -1322,26 +1322,31 @@ h1{
     text-align: center;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     color: white;
 }
 
 .text-title{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 20%;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.project-description{
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 30%;
-    text-transform: capitalize;
-    font-size: 25px;
-}
-
-.project-description{
-    margin-top: 10px;
-    width: 90%;
     height: 60%;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .language-used{
@@ -1353,10 +1358,16 @@ h1{
 }
 
 .language-used-image{
-    width: 20%;
-    height: 90%;
+    width: 18%;
+    height: 80%;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+#css-3{
+    /* border: 1px solid red; */
+    height: 63%;
+    width: 15%;
 }
 
 .project-image-container{
@@ -1368,7 +1379,7 @@ h1{
 }
 
 #quiz-game, #weather-app{
-    width: 75%;
+    width: 80%;
     height: 90%; 
 }
 
@@ -1450,9 +1461,15 @@ button{
 
 .language-used-image{
     height: 95%;
-    width: 10%;
+    width: 15%;
     margin-left: 5px;
     margin-bottom: 2px;
+}
+
+#css-3{
+    width: 10%;
+    height: 75%;
+
 }
 
 .project-image-container{
@@ -1522,11 +1539,11 @@ button{
 .project-description{
     width: 95%;
     height: 65%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .language-used{
-    height: 10%;
+    height: 13%;
 }
 
 .language-used-image{
@@ -1617,9 +1634,15 @@ button{
     height: 20%;
 }
 
+#css-3{
+    width: 10%;
+    height: 75%;
+
+}
+
 .language-used-image{
     height: 90%;
-    width: 12%;
+    width: 15%;
     margin-left: 5px;
     margin-bottom: 0;
 }
@@ -1713,10 +1736,16 @@ button{
     .language-used{
         height: 15%;
     }
+
+    #css-3{
+        width: 15%;
+        height: 80%;
+    
+    }
     
     .language-used-image{
-        height: 80%;
-        width: 12%;
+        height: 95%;
+        width: 20%;
         margin-left: 5px;
         margin-bottom: 0;
     }
