@@ -1528,11 +1528,12 @@ button{
 
 .project-text{
     width: 48%;
-    height: 60%;
+    height: 65%;
 }
 
 .text-title{
     height: 15%;
+    margin-top: 10px;
 }
 
 .project-description{
