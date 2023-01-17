@@ -1551,9 +1551,16 @@ button{
     height: 95%;
 }
 
-.project-text{
-    height: 65%;
+.project-title{
+    font-size: 30px;
+}
 
+.project-text{
+    height: 75%;
+}
+
+.project-description{
+    font-size: 20px;
 }
 
 }
@@ -1620,7 +1627,7 @@ height: 80%;
 @media (min-width: 320px) and (max-width: 480px) {
      
     .projects{
-        height: 250vh;
+        height: 270vh;
     }
 
     
@@ -1653,12 +1660,12 @@ height: 80%;
 }
 
 .text-title{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .project-description{
     height: 65%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .project-image-container{
