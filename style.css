@@ -900,7 +900,7 @@ transition: width 2s;
     
     .stack-items{
         height: 45%;
-        width: 22%;
+        width: 20%;
     }
 
     
@@ -985,12 +985,12 @@ transition: width 2s;
 
 
 .tech-stacks-container{
-    width: 60%;
+    width: 80%;
     height: 75%;
 }
 
 .stack-heading{
-    height: 10%;
+    height: 15%;
     margin-top: -5px ;
 }
     
@@ -1001,7 +1001,7 @@ transition: width 2s;
     
     .stack-items{
         height: 45%;
-        width: 23%;
+        width: 20%;
     }
     
     .stack-images{
@@ -1049,24 +1049,24 @@ transition: width 2s;
 
         
 .current-learn{
-    width: 50%;
+    width: 40%;
     height: 20%;
 }
 
 .learning-paragragh{
     font-size: 25px;
     height: 80%;
-    width: 60%;
+    width: 80%;
 }
 
 .react-container{
     height: 100%;
-    width: 40%;
+    width: 30%;
 }
 
 #react-image{
     height: 95%;
-    width: 40%;
+    width: 80%;
 }
 
 }
@@ -1087,12 +1087,13 @@ transition: width 2s;
     }
 
     .stack-heading{
-        height: 10%;
-        margin-top: -2px;
+        height: 15%;
+        margin-top: 2px;
     }
     
     .tech-stacks-container{
-    width: 70%;
+    width: 80%;
+    justify-content: space-between
 }
     
     .tech-stacks{
@@ -1102,29 +1103,29 @@ transition: width 2s;
     
     .stack-items{
         height: 45%;
-        width: 24%;
+        width: 20%;
     } 
     
     
 .current-learn{
-    width: 50%;
+    width: 40%;
     height: 20%;
 }
 
 .learning-paragragh{
     font-size: 20px;
     height: 80%;
-    width: 50%;
+    width: 70%;
 }
 
 .react-container{
     height: 100%;
-    width: 50%;
+    width: 40%;
 }
 
 #react-image{
     height: 99%;
-    width: 45%;
+    width: 60%;
 }
 
 
@@ -1136,7 +1137,7 @@ transition: width 2s;
 */
 @media (min-width: 320px) and (max-width: 480px) {
     .tech{
-        height: 60vh;
+        height: 40vh;
         display: flex;
         justify-content: center;
     }
@@ -1146,26 +1147,29 @@ transition: width 2s;
         flex-direction: column;
         justify-content: space-around;
     }
-
-.tech-stacks-container{
-    height: 80%;
-    width: 80%;
-}
-
-.tech-stacks{
-    height: 85%;
-    width: 95%;
-}
-
-.stack-heading{
-    /* margin-top: -2px; */
-    height: 10%;
-}
-
-.stack-items{
+    
+    .tech-stacks-container{
+        height: 75%;
+        width: 99%;
+        justify-content: space-around;
+    }
+    
+    .tech-stacks{
+        height: 70%;
+        width: 99%;
+        margin: 0;
+        /* justify-content: space-evenly; */
+    }
+    
+    .stack-heading{
+        margin-top: 0;
+        height: 10%;
+    }
+    
+    .stack-items{
     margin-top: -4px;
-        height: 25%;
-        width: 45%;
+        height: 45%;
+        width: 24%;
     }
     
     .stack-images{
@@ -1175,27 +1179,27 @@ transition: width 2s;
     
     #javascript{
         height: 95%;
-        width: 60%;
+        width: 75%;
     }
     
     #wordpress{
-        height: 92%;
-        width: 50%;
+        height: 95%;
+        width: 70%;
     }
     
     #html{
         height: 95%;
-        width: 60%;
+        width: 70%;
     }
     
     #elementor{
         height: 90%;
-        width: 50%;
+        width: 70%;
     }
     
     #css{
         height: 90%;
-        width: 50%;
+        width: 60%;
     }
     
     #tailwind{
@@ -1205,19 +1209,20 @@ transition: width 2s;
     
     #squarespace{
         height: 99%;
-        width: 70%;
+        width: 90%;
     }
 
     #bootstrap{
         height: 99%;
-        width: 65%;
+        width: 75%;
     }
 
        
 .current-learn{
     box-shadow: #c1d3f1 0px 1px 0px 2px;
     width: 60%;
-    height: 15%;
+    height: 20%;
+    margin: 0;
 }
 
 .learning-paragragh{
@@ -1232,7 +1237,7 @@ transition: width 2s;
 }
 
 #react-image{
-    height: 80%;
+    height: 90%;
     width: 90%;
 }
 
