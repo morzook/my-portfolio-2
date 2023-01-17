@@ -341,7 +341,6 @@ a.site-logo {
 }
 
 .social-icons-container{
-    border: 1px solid black;
     z-index: -1;
     height: 100%;
     width: 8%;
@@ -437,7 +436,6 @@ a.site-logo {
 }
 
 .cta-link{
-    border: 1px solid red;
     width:100% ;
     display: flex;
     justify-content: center;
@@ -515,12 +513,12 @@ transition: width 2s;
     }
     
     .heading-1{
-        font-size: 3rem;
+        font-size: 3.5rem;
         letter-spacing: 5px;
     }
     
     .h2-inner{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     
     .intro-text{
@@ -530,8 +528,8 @@ transition: width 2s;
     }
 
     .intro-cta{
-        width: 40%;
-        font-size: 20px;
+        width: 50%;
+        font-size: 30px;
         margin-top: 5px;
         justify-content: center;
     }
@@ -630,7 +628,7 @@ transition: width 2s;
         width: 60%;
         height: 20%;
         flex-direction: row;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     
     .social-icons{
@@ -656,13 +654,13 @@ transition: width 2s;
 }
 
 .h2-inner{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .intro-text{
     width: 99%;
-    line-height: 30px;
-    margin-top: 10px;
+    line-height: 25px;
+    margin-top: 15px;
 }
 
 .hero-image-container{
@@ -670,7 +668,7 @@ transition: width 2s;
   }
 
   .intro-cta{
-    margin-top: 20px;
+    margin-top: 30px;
     height: 15%;
     width: 40%;
     justify-content: center;
