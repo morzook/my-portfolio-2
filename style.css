@@ -1630,7 +1630,6 @@ height: 80%;
 
     .project-1, .project-2, .project-3{
         height: 33%;
-        border: 1px solid rgb(0, 255, 13);
     }
     
     .project-a, .project-b{
@@ -1644,12 +1643,13 @@ height: 80%;
 }
 
 .project-text{
-    height: 80%;
+    height: 85%;
     width: 100%;
 }
 
 .project-links{
-    width: 60%;
+    width: 65%;
+    height: 100%;
 }
 
 .text-title{
@@ -1673,37 +1673,32 @@ height: 80%;
 .language-used-image{
 margin: 0;
 width: 12%;
-height: 70%;
+height: 90%;
 }
 
 #css-3{
-    width: 16%;
+    width: 12%;
     height: 70%;
+}
+
+.more-project-btn-container{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 5%;
+}
+
+button{
+    font-size: 25px;
 }
 
 .more-btn{
     width: 70%;
-    height: 70%;
+    height: 50%;
+}
+
 }
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 /* WRITING SECTION STARTS */
 .writing{
     background-color: whitesmoke;
