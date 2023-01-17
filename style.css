@@ -1345,7 +1345,7 @@ h1{
     width: 99%;
     height: 20%;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .project-description{
@@ -1355,7 +1355,7 @@ h1{
     align-items: center;
     width: 99%;
     height: 62%;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .language-used{
@@ -1479,7 +1479,7 @@ button{
 .project-description{
     width: 99%;
     height: 62%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .language-used{
@@ -1564,6 +1564,52 @@ button{
   ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape)  {
+    .projects{
+        height: 300vh;
+    }
+
+    
+    .project-content{
+        width: 99%;
+    }
+
+    .project-1, .project-2, .project-3{
+        height: 33%;
+    }
+
+.project-a, .project-b{
+    width: 49%;
+    height: 95%;
+}
+
+.project-text{
+    height: 80%;
+}
+
+.text-title{
+    font-size: 25px;
+}
+
+.project-description{
+    height: 65%;
+    font-size: 15px;
+}
+
+.language-used-image{
+margin: 0;
+width: 18%;
+height: 80%;
+}
+
+#css-3{
+    width: 16%;
+    height: 70%;
+}
+
+.more-btn{
+    width: 70%;
+    height: 70%;
+}
 
 }
 
@@ -1572,6 +1618,73 @@ button{
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
+     
+    .projects{
+        height: 250vh;
+    }
+
+    
+    .project-content{
+        width: 99%;
+    }
+
+    .project-1, .project-2, .project-3{
+        height: 33%;
+        border: 1px solid rgb(0, 255, 13);
+    }
+    
+    .project-a, .project-b{
+        width: 95%;
+        height: 48%;
+    }
+    
+    .project-container{
+    flex-direction: column;
+
+}
+
+.project-text{
+    height: 80%;
+    width: 100%;
+}
+
+.project-links{
+    width: 60%;
+}
+
+.text-title{
+    font-size: 25px;
+}
+
+.project-description{
+    height: 65%;
+    font-size: 20px;
+}
+
+.project-image-container{
+    width: 40%;
+}
+
+#quiz-game{
+    height: 95%;
+    width: 100%;
+}
+
+.language-used-image{
+margin: 0;
+width: 12%;
+height: 70%;
+}
+
+#css-3{
+    width: 16%;
+    height: 70%;
+}
+
+.more-btn{
+    width: 70%;
+    height: 70%;
+}
 
 
 }
