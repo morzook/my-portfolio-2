@@ -1375,6 +1375,7 @@ h1{
     align-items: center;
     flex-direction: column;
     color: white;
+    z-index: -1 ;
 }
 
 .project-links{
