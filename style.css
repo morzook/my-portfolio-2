@@ -12,7 +12,7 @@ body{
     width: 100%;
     position: fixed;
     background-color: #005FFF;
-    z-index: auto;
+    z-index: 1;
 
   }
 
