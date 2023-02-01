@@ -1,0 +1,351 @@
+body{
+    background-color: #ffff;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+     overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar-area {
+    height: 40px;
+    width: 100%;
+    /* position: fixed; */
+    background-color: #005FFF;
+    z-index: 1;
+    margin-top: 0;
+
+  }
+
+.site-navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.site-logo {
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-navbar ul {
+    height: 100%;
+    margin-right: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+.site-navbar ul li a {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  } 
+
+.site-navbar ul li a:hover {
+    background: rgba(128, 22, 22, 0.1);
+  }  
+  
+  .nav-toggler {
+    border: none;
+    margin-right: 8px;
+    width: 45px;
+    padding: 5px;
+    cursor: pointer;
+    height: 39px;
+    display: none;
+    background-color:transparent;
+
+  }
+
+  
+  .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+  }
+  .nav-toggler span:before {
+    content: '';
+    transform: translateY(-9px);
+  }
+  .nav-toggler span:after {
+    content: '';
+    transform: translateY(6px);
+  }
+  .nav-toggler.toggler-open span {
+    background-color: transparent;
+  }
+  .nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+  }
+  .nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+
+
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+   .navbar-area{
+       height: 50px;
+   }
+
+  a.site-logo{
+    font-size: 30px;
+    margin-left: 10px;
+    }
+    .container {
+      max-width: 1024px;
+    }
+    .nav-toggler{
+      display: block;
+      margin-right: 20px;
+    }
+    .site-navbar {
+      min-height: 50px;
+    }
+
+.site-navbar ul li a {
+    color: black;
+    font-size: 25px;
+}
+
+    
+  .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 200px);
+      left: 0;
+      top: 35px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(246, 250, 246);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    
+    .site-navbar ul li a {
+        padding: 20px;
+        }
+
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+     
+    .navbar-area{
+        height: 50px;
+        width: 100vw;
+    }
+
+   a.site-logo{
+     font-size: 30px;
+     margin-left: 10px;
+     }
+     .container {
+       max-width: 1024px;
+     }
+     .nav-toggler{
+       display: block;
+       margin-right: 30px;
+     }
+
+     .site-navbar {
+       min-height: 50px;
+     }
+ 
+ .site-navbar ul li a {
+     color: black;
+     font-size: 25px;
+ }
+
+ 
+     
+   .site-navbar ul {
+       position: absolute;
+       width: 100vw;
+       height: calc(100vh - 100px);
+       left: 0;
+       top: 35px;
+       flex-direction: column;
+       align-items: center;
+       background-color: rgb(246, 250, 246);
+       max-height: 0;
+       overflow: hidden;
+       transition: .3s;
+     }
+     
+     .site-navbar ul li a {
+         padding: 20px;
+         }
+ 
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape)  {
+   .navbar-area{
+       height: 50px;
+       width: 100vw;
+    }
+
+    
+   a.site-logo{
+    font-size: 30px;
+    margin-left: 10px;
+    }
+    
+    .container {
+      max-width: 767px;
+    }
+    .nav-toggler{
+      display: block;
+      margin-right: 10px;
+      background-color: transparent;
+    }
+    .site-navbar {
+      min-height: 50px;
+    }
+
+.site-navbar ul li a {
+    color: black;
+}
+
+    
+  .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 60px);
+      left: 0;
+      top: 35px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(246, 250, 246);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    
+    .site-navbar ul li a {
+        padding: 20px;
+        }
+    
+ 
+   
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+   .navbar-area{
+       height: 50px;
+   }
+
+   a.site-logo{
+    font-size: 30px;
+    margin-left: 5px;
+    }
+
+    .container {
+      max-width: 480px;
+    }
+    .nav-toggler{
+      display: block;
+      background-color: transparent;
+    }
+
+    .site-navbar {
+      min-height: 50px;
+    }
+
+.site-navbar ul li a {
+    color: black;
+}
+
+  .site-navbar ul {
+      position: absolute;
+      width: 100vw;
+      height: calc(100vh - 60px);
+      left: 0;
+      top: 35px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(246, 250, 246);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    
+    .site-navbar ul li a {
+        padding: 20px;
+        }
+}
+     /* NAVBAR ENDS */
+
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.article-title{
+    height: 15%;
+    width: 90%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-image{
+    width: 90%;
+}
+
+.article-body{
+    border: 1px soid green;
+    width: 80%;
+}

@@ -63,6 +63,7 @@ a.site-logo {
     cursor: pointer;
     height: 39px;
     display: none;
+    background-color: transparent;
   }
 
   
@@ -192,6 +193,7 @@ a.site-logo {
      color: black;
      font-size: 25px;
  }
+
  
      
    .site-navbar ul {
@@ -237,6 +239,8 @@ a.site-logo {
     .nav-toggler{
       display: block;
       margin-right: 10px;
+      background-color: transparent;
+
     }
     .site-navbar {
       min-height: 50px;
@@ -288,7 +292,9 @@ a.site-logo {
     }
     .nav-toggler{
       display: block;
+      background-color: transparent;
     }
+
     .site-navbar {
       min-height: 50px;
     }
@@ -297,7 +303,6 @@ a.site-logo {
     color: black;
 }
 
-    
   .site-navbar ul {
       position: absolute;
       width: 100vw;
