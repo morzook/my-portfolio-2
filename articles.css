@@ -348,6 +348,10 @@ a.site-logo {
     /* height: 400px; */
 }
 
+.article-img{
+    width: 100%;
+}
+
 .article-image-container{
     margin-top: 40px;
     width: 60%;
