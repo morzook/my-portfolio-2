@@ -1986,7 +1986,7 @@ button{
 @media (min-width: 320px) and (max-width: 480px) {
      
     .writing{
-        height: 100vh;
+        height: 120vh;
     }
     
     .writing-container{
@@ -1995,21 +1995,25 @@ button{
     }
 
     .articles{
-        width: 90%;
+        width: 95%;
         height: 15%;
         flex-direction: row;
-        box-shadow: #005FFF 0px 0px 0px 1px;
+        box-shadow: #005FFF 0px 0px 5px 0px;
+    }
 
+    .writing-links{
+        flex-direction: row;
+        justify-content: space-around;
     }
     
     .article-image{
-        width: 60%;
+        width: 40%;
         height: 95%;
     }
     
     .article-topic{
-        width: 95%;
-        height: 25%;
+        width: 50%;
+        height: 80%;
         font-size: 15px;
         display: flex;
         justify-content: center;
