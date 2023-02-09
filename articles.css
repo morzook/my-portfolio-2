@@ -323,6 +323,8 @@ a.site-logo {
 }
      /* NAVBAR ENDS */
 
+
+
 .article{
     display: flex;
     flex-direction: column;
@@ -331,6 +333,7 @@ a.site-logo {
 }
 
 .article-title{
+    text-align: center;
     height: 15%;
     width: 90%;
     text-transform: capitalize;
