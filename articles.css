@@ -461,3 +461,9 @@ a.site-logo {
     }
 
 }
+
+.back-to-home{
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
